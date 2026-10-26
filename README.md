@@ -159,6 +159,11 @@ git push -u origin main
 4. Start command: `uvicorn main:app --host 0.0.0.0 --port $PORT`
 5. Add the environment variable `GEMINI_API_KEY` and deploy.
 
-## API endpoints
+## API 
+EduGenie – AI Learning Assistant 🎓
+
+AI-powered learning app for Q&A, quizzes, summaries, and learning paths.
+
+🔗 Live Demo: https://edugenie-j9wc.onrender.com
 `POST /qa`, `POST /explain`, `POST /quiz`, `POST /summarize`, `POST /learn/recommendations` and `POST /api/task`
 (body: `{"task": "...", "text": "..."}`), plus `GET /health`.
